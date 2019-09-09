@@ -5,5 +5,7 @@ This repository contains dumps of PoCs of security issues that I've reported. So
 
 * [FreeBSD: CVE-2018-17155](FreeBSD/CVE-2018-17155)
 
+This repository does only contain PoCs for issues I consider most interesting. For instance, I reported **dozens** of (kernel) security bugs to BSD-based projects. [FreshBSD](https://freshbsd.org/search?q=Thomas+Barabosch&project%5B%5D=freebsd&project%5B%5D=netbsd&project%5B%5D=openbsd&sort=commit_date) lists all commits to FreeBSD, OpenBSD, and NetBSD that reference my name.
+
 ## A Word On Responsible Disclosure
 I followed a responsible disclosure approach. Hence, most of the bugs should be fixed by now. Unfortunately, one organization stopped answering my mails, fixed several kernel memory disclosures on their repo's HEAD but did not backport them (i.e. leaving their users vulnerable), and did not file any CVE for bugs for which they should (according to their security advisory strategy).

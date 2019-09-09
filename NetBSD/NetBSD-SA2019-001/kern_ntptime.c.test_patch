@@ -1,0 +1,11 @@
+--- kern_ntptime.c	2018-10-29 22:11:38.666744872 +0100
++++ kern_ntptime.c.patched	2018-10-29 22:11:13.823846980 +0100
+@@ -935,6 +935,8 @@
+ 	} */
+ 	struct ntptimeval ntv;
+ 	int error = 0;
++	
++	memset(&ntv, 0x45, sizeof(struct ntptimeval));
+ 
+ 	if (SCARG(uap, ntvp)) {
+ 		ntp_gettime(&ntv);

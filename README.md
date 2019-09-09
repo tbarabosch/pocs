@@ -4,6 +4,7 @@ This repository contains dumps of PoCs of security issues that I've reported. So
 ## List of Security Issues
 
 * [FreeBSD: CVE-2018-17155](FreeBSD/CVE-2018-17155)
+* [NetBSD: NetBSD-SA2019-001](NetBSD/NetBSD-SA2019-001)
 
 This repository does only contain PoCs for issues I consider most interesting. For instance, I reported **dozens** of (kernel) security bugs to BSD-based projects. [FreshBSD](https://freshbsd.org/search?q=Thomas+Barabosch&project%5B%5D=freebsd&project%5B%5D=netbsd&project%5B%5D=openbsd&sort=commit_date) lists all commits to FreeBSD, OpenBSD, and NetBSD that reference my name.
 

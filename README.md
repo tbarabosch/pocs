@@ -3,6 +3,7 @@ This repository contains dumps of PoCs of security issues that I've reported. So
 
 ## List of Security Issues
 
+* [FreeBSD: CVE-2018-6924](FreeBSD/CVE-2018-6924)
 * [FreeBSD: CVE-2018-17155](FreeBSD/CVE-2018-17155)
 * [NetBSD: NetBSD-SA2019-001](NetBSD/NetBSD-SA2019-001)
 * [OpenBSD: CVE-2018-14775](OpenBSD/CVE-2018-14775)
